@@ -18,3 +18,10 @@ cmake ..
 make
 sudo make install
 ```
+
+## Run launcher with Steam
+* Right click in **Crusader Kings II** under the **LIBRARY** tab
+* Choose "Properties" option
+* Click on button **SET LAUNCH OPTIONS...**
+* Replace the current text with "ck2launcher %command%" (without the quotes)
+* Play the game
