@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="images">
+    <file>config.png</file>
+    <file>background.jpg</file>
+    <file>button_big.jpg</file>
+    <file>button_small.jpg</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>
