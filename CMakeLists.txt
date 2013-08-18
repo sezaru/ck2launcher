@@ -4,10 +4,8 @@ project (ck2launcher)
 
 if (NOT WIN32)
   set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -pedantic -Wwrite-strings -Wconversion -std=c++11")
-  set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-sign-conversion -Wno-sign-compare -Wno-nested-anon-types -fPIE -ggdb -O0")
+  set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-sign-conversion -Wno-sign-compare -Wno-nested-anon-types -fPIE")
 endif (NOT WIN32)
-
-set (CMAKE_BUILD_TYPE "Debug")
 
 find_package (Qt5Core REQUIRED)
 find_package (Qt5Widgets REQUIRED)
