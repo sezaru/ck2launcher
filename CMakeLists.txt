@@ -11,7 +11,7 @@ find_package (Qt5Core REQUIRED)
 find_package (Qt5Widgets REQUIRED)
 find_package (Qt5WebKitWidgets REQUIRED)
 
-find_package (Boost 1.50 COMPONENTS filesystem regex REQUIRED)
+find_package (Boost 1.50 COMPONENTS filesystem system regex REQUIRED)
 
 file (GLOB sources src/*.cpp)
 file (GLOB ui ui/*.ui)
